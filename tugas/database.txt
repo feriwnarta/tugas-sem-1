@@ -1,0 +1,2 @@
+sasd,3,silver,1,
+asd,4,gasd,2,

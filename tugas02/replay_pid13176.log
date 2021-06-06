@@ -1,0 +1,22 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 155 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 27574 0 -1
+ciMethod java/lang/String <init> ([BIILjava/nio/charset/Charset;)V 0 0 1 0 -1
+ciMethod java/lang/Number <init> ()V 2265 1 283 0 -1
+ciMethod java/lang/Integer parseInt (Ljava/lang/String;I)I 1065 2145 185 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 249 1 31 0 -1
+ciMethod java/lang/Integer <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 1465 1 834 0 -1
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 1465 1 834 0 -1
+ciMethod java/util/ArrayList grow (I)V 201 1 121 0 -1
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 1905 1 5998 0 -1
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 1905 1 5771 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 1465 1 832 0 -1
+ciMethod java/util/ArrayList rangeCheck (I)V 1905 1 5998 0 -1
+ciMethod java/util/ArrayList outOfBoundsMsg (I)Ljava/lang/String; 0 0 1 0 -1
+ciMethod java/lang/Math max (II)I 3065 1 5576 0 -1
+ciMethodData java/lang/Object <init> ()V 2 27576 orig 264 72 34 227 105 0 0 0 0 128 4 20 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 77 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/Math max (II)I 2 5576 orig 264 72 34 227 105 0 0 0 0 224 39 35 21 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 1 0 0 73 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0xd2 0x38 0x1377 0x60003 0x1377 0x18 oops 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 1 832 orig 264 72 34 227 105 0 0 0 0 32 219 32 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 183 0 0 0 73 20 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x289 0x1a0004 0x0 0x17b7d890 0x21 0x17b7d940 0x11 oops 2

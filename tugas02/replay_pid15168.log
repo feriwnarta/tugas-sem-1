@@ -1,0 +1,13 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 115 ciObject found
+ciMethod java/lang/String regionMatches (ZILjava/lang/String;II)Z 1969 6513 387 0 -1
+ciMethod java/lang/Character toLowerCase (C)C 3113 1 395 0 -1
+ciMethod java/lang/Character toLowerCase (I)I 4097 1 1948 0 -1
+ciMethod java/lang/Character toUpperCase (C)C 4097 1 736 0 -1
+ciMethod java/lang/Character toUpperCase (I)I 4097 1 736 0 -1
+ciMethod java/lang/CharacterData toLowerCase (I)I 0 0 1 0 -1
+ciMethod java/lang/CharacterData toUpperCase (I)I 0 0 1 0 -1
+ciMethod java/lang/CharacterData of (I)Ljava/lang/CharacterData; 4097 1 3148 0 -1
+ciMethodData java/lang/Character toLowerCase (I)I 2 1948 orig 264 72 34 227 105 0 0 0 0 16 163 225 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 44 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x59c 0x50005 0x0 0x176cfee0 0x59c 0x0 0x0 oops 1
